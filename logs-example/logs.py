@@ -25,7 +25,7 @@ file_log_handler = RotatingFileHandler(log_file_name, maxBytes=1024 * 1024 * 100
 console_handler = logging.StreamHandler()
 
 # 创建日志记录的格式 日志等级 输入日志信息的文件名 行数 日志信息
-formatter = logging.Formatter('%(levelname)-7s %(asctime)s %(filename)-10s %(lineno)-3d : %(message)s', '%Y-%m-%d %A %H:%M:%S')
+formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(filename)-2s Line:%(lineno)-d: %(message)s', '%Y-%m-%d %H:%M:%S')
 # 为刚创建的日志记录器设置日志记录格式
 file_log_handler.setFormatter(formatter)
 console_handler.setFormatter(formatter)

@@ -1,2 +1,12 @@
 INFO    2020-03-11 Wednesday 14:54:01 main.py    6   : log test
 INFO    2020-03-11 Wednesday 14:58:30 main.py    6   : log test
+2020-03-11 Wednesday 15:13:58 INFO    main.py    6   : log test
+2020-03-11 15:14:37 INFO    main.py    6   : log test
+2020-03-11 15:15:13 [INFO   ] main.py    6   : log test
+2020-03-11 15:15:53 [INFO] main.py    6   : log test
+2020-03-11 15:16:25 [INFO] main.py    6 : log test
+2020-03-11 15:16:33 [INFO] main.py    6 : log test
+2020-03-11 15:16:40 [INFO] main.py    6: log test
+2020-03-11 15:17:19 [INFO] main.py 6: log test
+2020-03-11 15:17:39 [INFO] main.py Line:6: log test
+2020-03-11 15:17:42 [INFO] main.py Line:6: log test
